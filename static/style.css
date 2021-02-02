@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 3vw;
+    font-family:'Times New Roman';
+    margin: 1vw;
+    text-align: center;
+}
+td{
+    padding: 1vw;
+}
+label{
+    font-weight: bold;
+    font-size: 2vw;
+    font-family:monospace;
+    width: 100%;
+    height: 100%;
+}
+#answer{
+    margin: 1vw;
+    font-size: 1.5vw;
+    font-family:'Times New Roman', Times, serif
+}
+input{
+    font-size: 1.5vw;
+}
+input[type=button]{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5vw;
+    position: relative;
+    left: 50%;
+}
+#results{
+	/*background-color: red;*/
+	position: absolute;
+	top: 15vh;
+	right: 35%;
+	width: 45%;
+	height: 70%;
+	transform: translate(70%,0)
+	
+}

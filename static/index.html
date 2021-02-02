@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Journal Grader
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style type="text/css">
+            textarea{
+                overflow: scroll;
+                resize: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Journal Grader</h2>
+        <form style="width: 50%;">
+            <table>
+                <tr>
+                    <td>
+                        <label>Word Limit:</label>
+                    </td>
+                    <td>
+                        <input type="number" min="50" max="1000" value="350">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Question:</label>
+                    </td>
+                    <td>
+                        <input type="text" style="width: 100%;" id="question">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <label>Answer:</label>
+                </td>
+                </tr>
+            </table>
+            <div style="height: 10vw; overflow: auto; padding: 2vw;" >
+            <textarea placeholder="Paste Answer You want to Grade" style="width:99%; height: 99%;" id='answer'> </textarea>
+            </div>
+            <input type="button" value="Grade!" onclick="sendData()">
+            <div id="results">
+					<h2>Results:</h2>     
+            <iframe src="result" style="display: none" onload="updateResult(this); console.log(this)"></iframe>
+            <div id="Result">
+                
+            </div>
+            </div>
+        </form>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

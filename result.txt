@@ -1,0 +1,120 @@
+ message: There should be a space after a closing quote.
+ replacements: \x94 1
+ sentence: Climate change
+
+#######################
+
+ message: Possible spelling mistake found.
+ replacements: precipitation
+ sentence: Climate change
+
+#######################
+
+ message: There should be a space after a closing quote.
+ replacements: \x94 2
+ sentence: Climate change
+
+#######################
+
+ message: There should be a space after a closing quote.
+ replacements: \x94 3
+ sentence: For the warming over the last century
+
+#######################
+
+ message: Possible spelling mistake found.
+ replacements: Gags
+ sentence: The emission of greenhouses gases (GHGs)
+
+#######################
+
+ message: Possible spelling mistake found.
+ replacements: Gags
+ sentence: GHGs absorb terrestrial radiation that leaves the Earth\x92s surface.})
+
+#######################
+
+ message: Possible spelling mistake found.
+ replacements: Gags
+ sentence: Although GHGs \x93create the natural heat-trapping properties of the atmosphere\x94 and are \x93necessary to life as we know it
+
+#######################
+
+ message: Possible spelling mistake found.
+ replacements: Gags
+ sentence: Although GHGs \x93create the natural heat-trapping properties of the atmosphere\x94 and are \x93necessary to life as we know it
+
+#######################
+
+ message: There should be a space after a closing quote.
+ replacements: \x94 8
+ sentence: Recent research identifies deadly effects of climate change
+
+#######################
+
+ message: Possible spelling mistake found.
+ replacements: preengagement
+ sentence: In August 2017
+
+#######################
+
+ message: There should be a space after a closing quote.
+ replacements: \x94 18
+ sentence: In August 2017
+
+#######################
+
+ message: Don\x92t put a space before the full stop.
+ replacements: .
+ sentence: In August 2017
+
+#######################
+
+ message: Don\x92t put a space before the full stop.
+ replacements: .
+ sentence: .})
+
+#######################
+
+ message: Don\x92t put a space before the full stop.
+ replacements: .
+ sentence: .})
+ Match({ruleId: UPPERCASE_SENTENCE_START
+
+#######################
+
+ message: This sentence does not start with an uppercase letter.
+ replacements: When
+ sentence: when more
+
+#######################
+
+ message: There should be a space after a closing quote.
+ replacements: \x94 19
+ sentence: when more
+
+#######################
+
+ message: There should be a space after a closing quote.
+ replacements: \x94 23
+ sentence: The global crisis of climate change has affected the practice of law.21 Indeed
+
+#######################
+
+ message: There should be a space after a closing quote.
+ replacements: \x94 24
+ sentence: As commentators observed
+
+#######################
+
+ message: Please add a punctuation mark at the end of paragraph.
+ replacements: actors.
+ sentence: The Report then reviews a number of cases brought by individual plaintiffs and environmental organizations against public and private actors})"
+
+#######################
+
+Final Result:
+
+total grade: 0/12
+color grade: red
+reason : If you are seeing this, Something is propablly wrong with your python script
